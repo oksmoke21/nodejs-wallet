@@ -45,7 +45,3 @@ mongoose.connect(MONGODB_URI) // sets connection to mongodb database via mongoos
     .catch(err=>{
         console.log(err)
     });
-
-
-
-// how to run project, (clone, commands), features
