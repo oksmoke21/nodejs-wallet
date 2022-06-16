@@ -8,7 +8,7 @@ Features of Sigma Wallet-
 1) Users can signup and create an account at /auth/signup [PUT]. A wallet balance of INR 1000 is provided and a confirmation mail is sent to the registered email ID upon successful signup.
 2) Users can login to their account at /auth/signup [POST]. If user enters an incorrect password, an OTP is registered and sent via email.
 3) In case of OTP login, users can do so at /auth/otp [POST] by entering the above OTP.
-4) All user sessions are maintained with JWT token, which once set needs to be added to 'Authorization' header as 'Bearer <token>'
+4) All user sessions are maintained with JWT token, which once set needs to be added to 'Authorization' header as 'Bearer < token >'
 
 5) Developers can set any user account as an admin account by changing the 'isAdmin' field as true in the MongoDB User model of a partcicular user. By default, all users signing up are not admins i.e 'isAdmin': false.
 6) Admin accounts, once logged in, can:
